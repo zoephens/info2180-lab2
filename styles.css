@@ -1,0 +1,111 @@
+.container{
+   height: 100vh;
+   width: 100vw;
+   font-size: 18px;
+   color:  #2D3748;
+   font-family: -apple-system,BlinkMacSystemFont,"SegoeUI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sansserif;
+   display: grid;
+   grid-template-columns: 5fr 2fr;
+}
+
+/*--------------------Header---------------------*/
+
+.header{
+   color: #FFFFFF;
+   background-color: #63B3ED;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   grid-column: span 2;
+   padding: 50px;
+   
+}
+.header h1{
+   font-size: 36px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#pfp{
+   border-radius: 50%;
+   width: 18%; 
+}
+
+/*---------------------Blogs---------------------*/
+.content{
+   grid-column: 1;
+   padding: 50px
+}
+
+article{
+   padding: 20px;
+}
+
+.content h2{
+   font-size: 32px;
+   color: #48BB78;
+}
+
+.content #date{
+   color: #718096;
+}
+
+/*Images*/
+.blog1 img{
+   float: right;
+   margin: 0px 0px 15px 15px;
+}
+
+.blog2 img{
+   float: left;
+   margin: 0px 15px 15px 0px;
+}
+
+
+/*---------------------Sidebar---------------------*/
+aside{
+   grid-column: 2;
+   padding: 50px
+}
+
+
+.sidebar .s-socials, .s-archive, .s-about{
+   padding: 15px;
+}
+
+.sidebar #social-media, #archives{
+   color: #48BB78;
+   font-family: Georgia,'Times New Roman', Times, serif;
+}
+
+.sidebar ul{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+} 
+
+.sidebar a{
+   text-decoration: none;
+   color: #4299E1;
+}
+
+.sidebar #about{
+   color: #000000;
+   font-family: Georgia,'Times New Roman', Times, serif;
+}
+
+.sidebar .s-about{
+   margin-top: 50px;
+   background-color:#E2E8F0;
+}
+
+/*---------------------Footer---------------------*/
+.footer{
+   background-color: #2C5282;
+   color:  #FFFFFF;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   grid-column: span 2;
+}
+ /*-----------------------------------------------*/
